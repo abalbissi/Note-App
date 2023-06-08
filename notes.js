@@ -8,7 +8,7 @@ export const addNote = (title, body) => {
   const notes = loadNote();
 
 
-  
+  //to see the ducplicate title
   const duplicatTitle = notes.filter((note) => {
     return note.title === title;
   });
