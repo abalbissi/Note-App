@@ -74,3 +74,4 @@ const noteApp = yargs(hideBin(process.argv))
     },
     handler: readHandler,
   }).argv;
+  console.log('zero')
